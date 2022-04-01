@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componete <GifGrid /> Debe mostrar correctamente el componente 1`] = `
+<Fragment>
+  <h3>
+    FMA
+  </h3>
+  Cargando...
+  <div
+    className="card-grid"
+  >
+    <ol />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componete <GifGrid /> Debe mostrar items cuando se cargan imagenes de useFecthGifs 1`] = `
+<Fragment>
+  <h3>
+    FMA
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <ol>
+      <GifGridItem
+        id="ABC"
+        key="ABC"
+        title="Title"
+        url="http://localhost/title.jpj"
+      />
+    </ol>
+  </div>
+</Fragment>
+`;
